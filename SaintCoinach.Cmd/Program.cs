@@ -84,7 +84,7 @@ namespace SaintCoinach.Cmd {
 
             return new string[] {
                 System.IO.Path.Combine(programDir, "SquareEnix", gameFolder),
-                System.IO.Path.Combine(@"D:\Games\SteamApps\common", gameFolder)
+                System.IO.Path.Combine(@"D:\FFXIV", gameFolder)
             };
         }
     }

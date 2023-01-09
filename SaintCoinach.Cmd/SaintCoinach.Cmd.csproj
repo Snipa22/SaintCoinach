@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SaintCoinach.Cmd</RootNamespace>
     <AssemblyName>SaintCoinach.Cmd</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>31e79848</NuGetPackageImportStamp>
     <TargetFrameworkProfile />
@@ -91,6 +91,7 @@
     <Compile Include="Commands\LanguageCommand.cs" />
     <Compile Include="Commands\ImageCommand.cs" />
     <Compile Include="Commands\MapCommand.cs" />
+    <Compile Include="Commands\PSqlExport.cs" />
     <Compile Include="Commands\RawExdCommand.cs" />
     <Compile Include="Commands\SqlExport.cs" />
     <Compile Include="ExdHelper.cs" />
